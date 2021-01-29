@@ -1,0 +1,13 @@
+{
+  "old_ontology": {
+    "path": "../../data/obo/hp_20190212.obo",
+    "version": "201902"
+  },
+  "old_annotation": "../../data/annotation/clean/hpo_annotation_20190212.json",
+  "new_ontology": {
+    "path": "../../data/obo/hp_20201012.obo",
+    "version": "201904"
+  },
+  "new_annotation": "../../data/annotation/clean/hpo_annotation_20201012.json",
+  "dataset": "../../data/dataset/temporal/dataset_temporal.pkl"
+}

@@ -1,0 +1,10 @@
+{
+  "mode": "cv",
+  "dataset": "../../data/dataset/cv/dataset_cv.pkl",
+  "network": [
+    "../../data/feature/STRING/clean/STRING.v11.0.json",
+    "../../data/feature/GeneMANIA/clean/GeneMANIA_20170314.json",
+    "../../data/feature/HumanNet/clean/HumanNet-XN_v2.json"
+  ],
+  "result": "../../data/result/HPODNets/cv/HPODNets_cv_fold{}.json"
+}

@@ -1,0 +1,5 @@
+{
+  "network": "../../../data/feature/GeneMANIA/raw/COMBINED.DEFAULT_NETWORKS.BP_COMBINING_20170314.txt",
+  "mapping": "../../../data/feature/GeneMANIA/raw/identifier_mappings_20170314.txt",
+  "feature": "../../../data/feature/GeneMANIA/clean/GeneMANIA_20170314.json"
+}

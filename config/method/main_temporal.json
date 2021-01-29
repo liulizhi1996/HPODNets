@@ -1,0 +1,10 @@
+{
+  "mode": "temporal",
+  "dataset": "../../data/dataset/temporal/dataset_temporal.pkl",
+  "network": [
+    "../../data/feature/STRING/clean/STRING.v11.0.json",
+    "../../data/feature/GeneMANIA/clean/GeneMANIA_20170314.json",
+    "../../data/feature/HumanNet/clean/HumanNet-XN_v2.json"
+  ],
+  "result": "../../data/result/HPODNets/temporal/HPODNets_temporal.json"
+}

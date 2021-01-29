@@ -1,0 +1,4 @@
+{
+  "anno_file": "../../data/annotation/raw/ALL_SOURCES_ALL_FREQUENCIES_phenotype_to_genes_20200327.txt",
+  "gene_list": "../../data/annotation/intermediate/gene_list_20200327.txt"
+}

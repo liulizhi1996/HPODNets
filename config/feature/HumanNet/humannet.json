@@ -1,0 +1,5 @@
+{
+  "entrez-uniprot": "../../../data/feature/HumanNet/raw/entrez2uniprot.txt",
+  "network": "../../../data/feature/HumanNet/raw/HumanNet-XN_v2.tsv",
+  "output": "../../../data/feature/HumanNet/clean/HumanNet-XN_v2.json"
+}

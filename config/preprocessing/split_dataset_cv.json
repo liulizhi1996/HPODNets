@@ -1,0 +1,10 @@
+{
+  "old_genes": "../../data/annotation/intermediate/gene_list_20180309.txt",
+  "old_mapping": "../../data/annotation/intermediate/gene2uniprot_20180309.txt",
+  "raw_annotation": "../../data/annotation/clean/hpo_annotation_20200327.json",
+  "ontology": {
+    "path": "../../data/obo/hp_20200327.obo",
+    "version": "201904"
+  },
+  "dataset": "../../data/dataset/cv/dataset_cv.pkl"
+}

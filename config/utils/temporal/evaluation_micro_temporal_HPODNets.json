@@ -1,0 +1,10 @@
+{
+  "mode": "temporal",
+  "dataset": "../../data/dataset/temporal/dataset_temporal.pkl",
+  "result": [
+    {
+      "name": "HPODNets",
+      "prediction": "../../data/result/HPODNets/temporal/HPODNets_temporal.json"
+    }
+  ]
+}

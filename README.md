@@ -1,6 +1,6 @@
 # HPODNets
 
-**HPODNets: Integrating heterogeneous interaction networks for prediction of protein-phenotype associations by deep graph convolutional networks**
+**HPODNets: deep graph convolutional networks for predicting human protein-phenotype associations**
 
 *Please run the programs in order.*
 
@@ -72,7 +72,7 @@ Our model is implemented by Python 3.6 with Pytorch 1.4.0 and Pytorch-geometric 
 Here the scores are scaled to [0, 1].
 
 
-### GeneMANIA
+### GeneMANIA-Net
 
 - `genemania.py`: First, please download `COMBINED.DEFAULT_NETWORKS.BP_COMBINING.txt` from [http://genemania.org/data/current/Homo\_sapiens.COMBINED/](http://genemania.org/data/current/Homo_sapiens.COMBINED/), and then download `identifier_mappings.txt` from [http://genemania.org/data/current/Homo_sapiens/](http://genemania.org/data/current/Homo_sapiens/). Run the `genemania.py` and you will obtain the PPI network as a json file.
 
@@ -87,3 +87,12 @@ Here the scores are scaled to [0, 1].
 ## Evaluation
 
 - `evaluation_macro.py` & `evaluation_micro.py`: There are two modes of evaluation: 1) macro-averaged; 2) micro-averaged. You can run the corresponding script to get the performance.
+
+
+## Download the prediction results
+
+We upload the prediction results of 15,033 proteins stored in STRING, GeneMANIA-Net and HumanNet databases that have not been annotated using the HPO annotations of 4,424 proteins released in October 2020 as the training set. The data is available at:
+
+[https://doi.org/10.6084/m9.figshare.14222732](https://doi.org/10.6084/m9.figshare.14222732)
+
+The file is organized in .json format, where the key is the HPO term, and the values are proteins and their corresponding predictive scores. The file is so large (1.98 GB), and you are free to download it.
